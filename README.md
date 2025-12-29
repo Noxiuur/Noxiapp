@@ -119,20 +119,9 @@ com.noxi.noxiapp/
 - Tüm veri işlemleri için kimlik doğrulama gereklidir
 - Yerel veriler Room ile şifrelenir
 
-## Katkıda Bulunma
-
-Katkılar memnuniyetle karşılanır! Lütfen bir Pull Request göndermekten çekinmeyin.
-
-## Lisans
-
-Bu proje özel ve tescillidir.
-
-## Yazar
-
 **Noxiuur**
 - GitHub: [@Noxiuur](https://github.com/Noxiuur)
 
-## Destek
 
 Destek için lütfen GitHub deposunda bir issue açın.
 
