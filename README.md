@@ -1,95 +1,95 @@
-# 🌟 Noxiapp - Habit Tracking & Fitness App
+# Noxiapp - Alışkanlık Takibi ve Fitness Uygulaması
 
-A comprehensive Android application for tracking habits, managing workouts, and achieving personal goals.
+Alışkanlıkları takip etmek, antrenmanları yönetmek ve kişisel hedeflere ulaşmak için kapsamlı bir Android uygulaması.
 
-## 📱 Features
+## Özellikler
 
-### 🎯 Habit Tracking
-- **Predefined Habits**: Quick setup with pre-configured habits
-  - 💧 Water intake tracking
-  - 📚 Reading (pages or minutes)
-  - 💊 Vitamin tracking
-  - 🧘 Meditation sessions
-  - 🏃 Exercise completion
-- **Custom Habits**: Create personalized habits with flexible tracking options
-- **Progress Visualization**: Track your daily, weekly, and monthly progress
-- **Streak Tracking**: Maintain and visualize your habit streaks
+### Alışkanlık Takibi
+- **Önceden Tanımlı Alışkanlıklar**: Hazır yapılandırılmış alışkanlıklarla hızlı kurulum
+  - Su tüketimi takibi
+  - Okuma (sayfa veya dakika)
+  - Vitamin takibi
+  - Meditasyon seansları
+  - Egzersiz tamamlama
+- **Özel Alışkanlıklar**: Esnek takip seçenekleriyle kişiselleştirilmiş alışkanlıklar oluşturun
+- **İlerleme Görselleştirme**: Günlük, haftalık ve aylık ilerlemenizi takip edin
+- **Seri Takibi**: Alışkanlık serilerinizi koruyun ve görselleştirin
 
-### 💪 Workout Management
-- **Exercise Library**: Extensive collection of predefined exercises
-- **Custom Workouts**: Create and save personalized workout programs
-- **Progress Tracking**: Log weights, reps, and notes for each exercise
-- **Calendar Integration**: View workout history by date
-- **Program Management**: Save and load different workout routines
+### Antrenman Yönetimi
+- **Egzersiz Kütüphanesi**: Geniş önceden tanımlı egzersiz koleksiyonu
+- **Özel Antrenmanlar**: Kişiselleştirilmiş antrenman programları oluşturun ve kaydedin
+- **İlerleme Takibi**: Her egzersiz için ağırlık, tekrar ve notlar kaydedin
+- **Takvim Entegrasyonu**: Antrenman geçmişini tarihe göre görüntüleyin
+- **Program Yönetimi**: Farklı antrenman rutinlerini kaydedin ve yükleyin
 
-### 🏆 Achievements System
-- Unlock achievements as you progress
-- Track your accomplishments
-- Stay motivated with milestone rewards
+### Başarılar Sistemi
+- İlerledikçe başarıların kilidini açın
+- Başarılarınızı takip edin
+- Kilometre taşı ödülleriyle motive olun
 
-### 📊 Analytics & Insights
-- **Calendar View**: Visual representation of your activity
-- **Statistics**: Detailed insights into your habits and workouts
-- **Profile Management**: Track personal information and goals
+### Analitik ve İçgörüler
+- **Takvim Görünümü**: Aktivitenizin görsel temsili
+- **İstatistikler**: Alışkanlıklarınız ve antrenmanlarınız hakkında detaylı bilgiler
+- **Profil Yönetimi**: Kişisel bilgileri ve hedefleri takip edin
 
-### 🔐 User Authentication
-- Secure Firebase Authentication
-- Email/Password login
-- User profile management
+### Kullanıcı Kimlik Doğrulama
+- Güvenli Firebase Kimlik Doğrulama
+- E-posta/Şifre girişi
+- Kullanıcı profili yönetimi
 
-## 🛠️ Tech Stack
+## Teknoloji Yığını
 
-- **Language**: Kotlin
+- **Dil**: Kotlin
 - **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Database**: 
-  - Room (Local storage)
-  - Firebase Firestore (Cloud sync)
-- **Authentication**: Firebase Auth
-- **Dependency Injection**: Hilt/Dagger (if applicable)
+- **Mimari**: MVVM (Model-View-ViewModel)
+- **Veritabanı**: 
+  - Room (Yerel depolama)
+  - Firebase Firestore (Bulut senkronizasyonu)
+- **Kimlik Doğrulama**: Firebase Auth
+- **Bağımlılık Enjeksiyonu**: Hilt/Dagger (varsa)
 - **Minimum SDK**: Android 8.0 (API 26)
-- **Target SDK**: Android 14 (API 34)
+- **Hedef SDK**: Android 14 (API 34)
 
-## 📦 Project Structure
+## Proje Yapısı
 
 ```
 com.noxi.noxiapp/
 ├── data/
-│   ├── local/          # Room database DAOs
-│   ├── repository/     # Data repositories
-│   └── models/         # Data classes
+│   ├── local/          # Room veritabanı DAOs
+│   ├── repository/     # Veri depoları
+│   └── models/         # Veri sınıfları
 ├── ui/
-│   ├── screens/        # Compose screens
-│   ├── components/     # Reusable UI components
-│   └── theme/          # App theming & styling
-└── MainActivity.kt     # Main entry point
+│   ├── screens/        # Compose ekranları
+│   ├── components/     # Yeniden kullanılabilir UI bileşenleri
+│   └── theme/          # Uygulama teması ve stilleri
+└── MainActivity.kt     # Ana giriş noktası
 ```
 
-## 🚀 Getting Started
+## Başlangıç
 
-### Prerequisites
-- Android Studio Hedgehog or later
-- JDK 17 or higher
+### Gereksinimler
+- Android Studio Hedgehog veya üzeri
+- JDK 17 veya üzeri
 - Android SDK 34
-- Firebase account
+- Firebase hesabı
 
-### Installation
+### Kurulum
 
-1. **Clone the repository**
+1. **Depoyu klonlayın**
    ```bash
    git clone https://github.com/Noxiuur/Noxiapp.git
    cd Noxiapp
    ```
 
-2. **Firebase Setup**
-   - Go to [Firebase Console](https://console.firebase.google.com)
-   - Create a new project or use existing one
-   - Download `google-services.json`
-   - Place it in the `app/` directory
+2. **Firebase Kurulumu**
+   - [Firebase Console](https://console.firebase.google.com) adresine gidin
+   - Yeni bir proje oluşturun veya mevcut olanı kullanın
+   - `google-services.json` dosyasını indirin
+   - `app/` dizinine yerleştirin
 
-3. **Configure Firebase Security Rules**
+3. **Firebase Güvenlik Kurallarını Yapılandırın**
    
-   **Firestore Rules:**
+   **Firestore Kuralları:**
    ```javascript
    rules_version = '2';
    service cloud.firestore {
@@ -104,40 +104,40 @@ com.noxi.noxiapp/
    }
    ```
 
-4. **Build and Run**
+4. **Derleyin ve Çalıştırın**
    ```bash
    ./gradlew build
    ```
-   Or open the project in Android Studio and click Run ▶️
+   Veya projeyi Android Studio'da açın ve Çalıştır butonuna tıklayın
 
-## 📸 Screenshots
+## Ekran Görüntüleri
 
-> Add screenshots of your app here
+> Uygulamanızın ekran görüntülerini buraya ekleyin
 
-## 🔒 Security
+## Güvenlik
 
-- Firebase API keys are excluded from version control
-- User data is protected with Firebase Security Rules
-- Authentication required for all data operations
-- Local data encrypted with Room
+- Firebase API anahtarları versiyon kontrolünden hariç tutulmuştur
+- Kullanıcı verileri Firebase Güvenlik Kuralları ile korunmaktadır
+- Tüm veri işlemleri için kimlik doğrulama gereklidir
+- Yerel veriler Room ile şifrelenir
 
-## 🤝 Contributing
+## Katkıda Bulunma
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Katkılar memnuniyetle karşılanır! Lütfen bir Pull Request göndermekten çekinmeyin.
 
-## 📄 License
+## Lisans
 
-This project is private and proprietary.
+Bu proje özel ve tescillidir.
 
-## 👤 Author
+## Yazar
 
 **Noxiuur**
 - GitHub: [@Noxiuur](https://github.com/Noxiuur)
 
-## 📞 Support
+## Destek
 
-For support, please open an issue in the GitHub repository.
+Destek için lütfen GitHub deposunda bir issue açın.
 
 ---
 
-**Made with ❤️ using Kotlin & Jetpack Compose**
+**Kotlin ve Jetpack Compose kullanılarak yapılmıştır**
