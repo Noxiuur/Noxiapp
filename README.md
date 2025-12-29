@@ -12,8 +12,6 @@ Alışkanlıkları takip etmek, antrenmanları yönetmek ve kişisel hedeflere u
   - Meditasyon seansları
   - Egzersiz tamamlama
 - **Özel Alışkanlıklar**: Esnek takip seçenekleriyle kişiselleştirilmiş alışkanlıklar oluşturun
-- **İlerleme Görselleştirme**: Günlük, haftalık ve aylık ilerlemenizi takip edin
-- **Seri Takibi**: Alışkanlık serilerinizi koruyun ve görselleştirin
 
 ### Antrenman Yönetimi
 - **Egzersiz Kütüphanesi**: Geniş önceden tanımlı egzersiz koleksiyonu
@@ -27,15 +25,18 @@ Alışkanlıkları takip etmek, antrenmanları yönetmek ve kişisel hedeflere u
 - Başarılarınızı takip edin
 - Kilometre taşı ödülleriyle motive olun
 
-### Analitik ve İçgörüler
-- **Takvim Görünümü**: Aktivitenizin görsel temsili
-- **İstatistikler**: Alışkanlıklarınız ve antrenmanlarınız hakkında detaylı bilgiler
-- **Profil Yönetimi**: Kişisel bilgileri ve hedefleri takip edin
-
 ### Kullanıcı Kimlik Doğrulama
 - Güvenli Firebase Kimlik Doğrulama
 - E-posta/Şifre girişi
 - Kullanıcı profili yönetimi
+
+ ## Ekran Görüntüleri
+<img width="365" height="810" alt="image" src="https://github.com/user-attachments/assets/4f0c5bca-fa52-45a2-b563-df26851d3eaf" />
+
+
+<img width="376" height="816" alt="image" src="https://github.com/user-attachments/assets/e3aa8118-b733-450f-883c-5ef494cbe2ea" />
+
+
 
 ## Teknoloji Yığını
 
@@ -110,9 +111,6 @@ com.noxi.noxiapp/
    ```
    Veya projeyi Android Studio'da açın ve Çalıştır butonuna tıklayın
 
-## Ekran Görüntüleri
-
-> Uygulamanızın ekran görüntülerini buraya ekleyin
 
 ## Güvenlik
 
